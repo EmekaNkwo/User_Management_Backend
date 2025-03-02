@@ -62,7 +62,7 @@ export class AcademicsDto {
 export class CreateUserDto {
   @IsOptional()
   @IsString()
-  profilePhoto?: string;
+  profilePhoto: string;
 
   @IsNotEmpty()
   @IsString()
